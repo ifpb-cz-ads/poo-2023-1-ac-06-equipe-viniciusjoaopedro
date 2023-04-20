@@ -176,3 +176,9 @@ public class Team {
 ### ✔️ Questão 8) Há dois erros no código:
 1. O método `maior` está definido como retornando um `int`, mas na verdade está retornando um valor booleano (`true` ou `false`). O tipo de retorno deve ser alterado para `boolean`.
 2. O método `menor` está definido como retornando `void`, mas na verdade está tentando retornar um valor inteiro (`num1` ou `num2`). O tipo de retorno deve ser alterado para `int`.
+
+---
+
+### ✔️ Questão 9) Há dois erros na classe apresentada:
+1. O método main não possui o modificador de acesso public necessário para ser executado como ponto de entrada da aplicação.
+2. Na linha 8, a expressão 7/2 resultará em uma divisão inteira, ou seja, o resultado será truncado para o inteiro mais próximo. Para obter o resultado correto da divisão, pelo menos um dos operandos precisa ser um valor de ponto flutuante.
